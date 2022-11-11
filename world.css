@@ -1,1 +1,105 @@
 /* Add your own styles */
+body{
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px auto;
+    row-gap: 20px;
+}
+
+header{
+    grid-row: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    background-color: rgba(103, 109, 167, 0.698);
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    column-gap: 20px;
+}
+
+h1{
+    
+    color: rgb(255, 255, 255);
+}
+
+main{
+    grid-row: 2;
+    row-gap: 20px;
+}
+
+#controls{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    padding-right: 50px;
+}
+
+label{
+    font-size: 1.2em;
+    color: rgb(44, 48, 83);
+}
+
+#controls input{
+    align-items: center;
+    border: solid rgba(103, 109, 167, 0.698);
+    padding: 10px 50px;
+    font-size: 1.2em;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+#controls button{
+    align-items: center;
+    border: none rgba(103, 109, 167, 0.698);
+    padding: 10px 50px;
+    font-size: 1.2em;
+    text-align: left;
+    background-color: rgba(103, 109, 167, 0.698);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+#result{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+table {
+    border-collapse: collapse;
+   
+  }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(103, 109, 167, 0.698);
+    
+}
+tr:nth-child(even), th {
+    background-color: rgba(103, 109, 167, 0.698);
+    color: white;
+}
+
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}

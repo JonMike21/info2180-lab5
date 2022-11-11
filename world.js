@@ -26,3 +26,13 @@ window.onload=function(){
         }
     }
 };
+
+
+/*
+?>
+<ul>
+<?php foreach ($results as $row): ?>
+  <li><?= $row['name'] . ' is ruled by ' . $row['head_of_state']; ?></li>
+<?php endforeach; ?>
+</ul>
+*/
