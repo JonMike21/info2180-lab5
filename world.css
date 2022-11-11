@@ -59,13 +59,26 @@ label{
     
 }
 
-#controls button{
+#controls #lookup{
     align-items: center;
     border: none rgba(103, 109, 167, 0.698);
     padding: 10px 50px;
     font-size: 1.2em;
     text-align: left;
     background-color: rgba(103, 109, 167, 0.698);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+#controls #lookupc{
+    align-items: center;
+    border: none rgba(103, 109, 167, 0.698);
+    padding: 10px 50px;
+    font-size: 1.2em;
+    text-align: left;
+    background-color: rgba(82, 128, 131, 0.698);
     color: white;
     text-decoration: none;
     border-radius: 5px;
